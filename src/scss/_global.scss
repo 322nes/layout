@@ -1,0 +1,32 @@
+body {}
+
+.wrapper{
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.container{
+  max-width: @@@@@@@;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  margin: -1px !important;
+  border: 0 !important;
+  padding: 0 !important;
+  white-space: nowrap !important;
+  clip-path: inset(100%) !important;
+  clip: rect(0 0 0 0) !important;
+  overflow: hidden !important;
+}
+
+.show {
+  display: flex;
+  opacity: 1;
+  transform: translate(0, 0);
+}
