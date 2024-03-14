@@ -11,5 +11,8 @@
   "devDependencies": {
     "scss": "^0.2.4",
     "vite": "^5.1.6"
+  },
+  "dependencies": {
+    "sass": "^1.72.0"
   }
 }
